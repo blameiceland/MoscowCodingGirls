@@ -3,74 +3,92 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Fitness</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<img src="./images/logo.png">
-		<nav>	
-			<ul>
-				<li>About</li>
-				<li>How it works</li>
-				<li>Services</li>
-				<li>Faq</li>
-				<li>Contact</li>
-			</ul>
-		</nav>
-		<h1>Fitness in a can/</h2>
-		<h2>Yes you can/</h3>
-	</header>
-	<main>
-		<ul>
-			<li>
-				<img src="./images/icon1.svg">
-				<h2>Resources</h2>
-				<p>
-					Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress. 
-				</p>
-				<a href="#">Explore more</a>
-			</li>
-			<li>				
-				<img src="./images/icon2.svg">
-				<h2>Training & Funding</h2>
-				<p>
-					Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. 
-				</p>
-				<a href="#">Browse training</a></li>
-			<li>
-				<img src="./images/icon3.svg">
-				<h2>Connect</h2>
-				<p>
-					Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress. 
-				</p>
-				<a href="#">Connect now</a>
-			</li>
-			<li>				
-				<img src="./images/icon4.svg">
-				<h2>Communicate</h2>
-				<p>
-					Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. 
-				</p>
-				<a href="#">Start now</a></li>
-		</ul>
-		<section>
-			<div>
-				<h3>It's all about</h3>
-				<h2>Fitness First</h2>
-				<img src="./images/icon5.svg" height="30">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-				<a href="#">Read more</a>
+	<header class="header">
+			<div class="line">
+				<img class="logo" src="./images/logo.png">
+				<nav>	
+					<ul class="menu">
+						<li class="menu-link">About</li>
+						<li class="menu-link">How it works</li>
+						<li class="menu-link">Services</li>
+						<li class="menu-link">Faq</li>
+						<li class="menu-link">Contact</li>
+					</ul>
+				</nav>
 			</div>
-			<img src="./images/img1.jpg">
-		</section>
-
+		<div class="heading">
+			<h1 class="title">Fitness in a can/</h2>
+			<h2 class="subtitle">Yes you can/</h3>
+		</div>
+	</header>
+	<main class="main">
 		<section>
-			<img src="./images/img2.jpg">
-			<div>
-				<h3>Love your</h3>
-				<h2>Your body</h2>
-				<img src="./images/icon5.svg" height="30">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-				<a href="#">Read more</a>
+			<ul class="benefits-blocks">
+				<li>
+					<div class="benefits-icon">
+						<img src="./images/icon1.svg">
+					</div>
+					<h2 class="benefits-heading">Resources</h2>
+					<p class="benefits-text">
+					Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress.
+					</p>
+					<a class="benefits-link" href="#">Explore more</a>
+				</li>
+				<li>				
+					<div class="benefits-icon">
+						<img src="./images/icon2.svg">
+					</div>
+					<h2 class="benefits-heading">Training & Funding</h2>
+					<p class="benefits-text">
+					Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.
+					</p>
+					<a class="benefits-link" href="#">Browse training</a></li>
+				<li>
+					<div class="benefits-icon">
+						<img src="./images/icon3.svg">
+					</div>
+					<h2 class="benefits-heading">Connect</h2>
+					<p class="benefits-text">
+					Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress.
+					</p>
+					<a class="benefits-link" href="#">Connect now</a>
+				</li>
+				<li>				
+					<div class="benefits-icon">
+						<img src="./images/icon4.svg">
+					</div>
+					<h2 class="benefits-heading">Communicate</h2>
+					<p class="benefits-text">
+					Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.
+					</p>
+					<a class="benefits-link" href="#">Start now</a></li>
+			</ul>
+		</section>
+		<section class="section">
+			<div class="block">
+				<h3 class="block-heading-small">It's all about</h3>
+				<h2 class="block-heading-big">Fitness First</h2>
+				<img class="drop-logo" src="./images/icon5.svg">
+				<p class="block-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+				</p>
+				<a class="block-link" href="#">Read more</a>
+			</div>
+			<img class="block-img" src="./images/img1.jpg">
+		</section>
+		<section class="section">
+			<img class="block-img" src="./images/img2.jpg">
+			<div class="block">
+				<h3 class="block-heading-small">Love your</h3>
+				<h2 class="block-heading-big">Your body</h2>
+				<img class="drop-logo" src="./images/icon5.svg">
+				<p class="block-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+				</p>
+				<a class="block-link" href="#">Read more</a>
 			</div>
 		</section>
 	</main>

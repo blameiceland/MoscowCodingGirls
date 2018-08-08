@@ -1,0 +1,130 @@
+.header {
+	background-image: url(./images/background.jpg);
+	height: 890px;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+.logo {
+	margin: 30px 0px 0px 40px;
+
+}
+
+.line {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	margin: 40px 40px 0px 0px;
+}
+
+.menu-link {
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+.heading {
+
+}
+
+.title {
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	margin: 300px 0px 0px 40px;
+
+
+}
+
+.subtitle {
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	margin: 10px 0px 0px 40px;
+}
+
+.main {
+	background-color: #a2ca28;
+	height: 500px;
+	background-size: cover;
+}
+
+.benefits-blocks {
+	height: 400px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 200px 200px 200px 200px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+.benefits-icon {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: inline;
+}
+
+.benefits-heading {
+	font-size: 24.04px;
+	color: white;	
+}
+
+.benefits-text {
+	font-size: 13.99px;
+	color: white;
+}
+
+.benefits-link {
+	font-size: 14px;
+	color: white;
+}
+
+.section {
+	height: 400px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 200px 0px 200px
+
+}
+
+.block {
+	background-color: white;
+
+}
+
+.block-heading-small {
+	font-size: 14px;
+	color: #fd634e;
+}
+
+.block-heading-big {
+	font-size: 35px;
+	color: #a2ca28;
+}
+
+.drop-logo {
+	width: 15px;
+}
+
+.block-text {
+	color: #656e74;
+	font-size: 14px
+}
+
+.block-link {
+	font-size: 14px;
+	color: #a2ca28
+}
+
+.block-img {
+
+}
