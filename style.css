@@ -52,7 +52,6 @@
 
 .main {
 	background-color: #a2ca28;
-	height: 500px;
 	background-size: cover;
 }
 
@@ -62,23 +61,16 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 200px 200px 200px 200px;
-	margin: 0px 0px 0px 0px;
 
-}
-
-.benefits-icon {
-	display: flex;
-	justify-content: space-between;
-	list-style-type: inline;
 }
 
 .benefits-heading {
-	font-size: 24.04px;
-	color: white;	
+	font-size: 24px;
+	color: white;
 }
 
 .benefits-text {
-	font-size: 13.99px;
+	font-size: 14px;
 	color: white;
 }
 
