@@ -3,7 +3,7 @@
 	height: 890px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	weight: 1600px;
+	width: 1600px;
 	margin: 0 auto
 
 }
@@ -15,7 +15,7 @@
 .line {
 	display: flex;
 	justify-content: space-between;
-	weight: 1600px;
+	width: 1600px;
 	margin: 0 auto
 }
 
@@ -65,7 +65,17 @@
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	padding: 0px 200px 0px 200px;
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.benefits-item {
+	padding: 0 10px 0 0;
+}
+
+.benefits-icon {
+	height: 40px;
 
 }
 
@@ -86,8 +96,8 @@
 }
 
 .big-blocks {
-	padding: 0px 200px 0px 200px;
-
+	width: 1000px;
+	margin: 0 auto;
 }
 
 .first-block {
@@ -102,7 +112,6 @@
 
 .white {
 	background-color: white;
-
 }
 
 .block-heading-small {
