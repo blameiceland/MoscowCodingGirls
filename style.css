@@ -1,10 +1,15 @@
+@font-face {
+	src: url(./fonts/AvenirNext/AvenirNextCyr-Regular.ttf);
+	font-family: AvenirNext;
+}
+
 .header {
 	background-image: url(./images/background.jpg);
 	height: 890px;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	width: 1600px;
-	margin: 0 auto
+	margin: 0 auto;
 
 }
 
@@ -16,7 +21,8 @@
 	display: flex;
 	justify-content: space-between;
 	width: 1600px;
-	margin: 0 auto
+	margin: 0 auto;
+
 }
 
 .menu {
@@ -24,6 +30,7 @@
 	justify-content: space-between;
 	width: 400px;
 	margin: 40px 40px 0px 0px;
+
 }
 
 .menu-link {
@@ -51,8 +58,6 @@
 .main {
 	background-color: #a2ca28;
 	background-size: cover;
-	weight: 1600px;
-	margin: 0 auto;
 
 }
 
@@ -71,7 +76,7 @@
 }
 
 .benefits-item {
-	padding: 0 10px 0 0;
+	padding: 0 20px 0 0;
 }
 
 .benefits-icon {
@@ -88,6 +93,7 @@
 .benefits-text {
 	font-size: 14px;
 	color: white;
+
 }
 
 .benefits-link {
@@ -103,11 +109,13 @@
 .first-block {
 	display: flex;
 	justify-content: space-between;
+	text-align: center;
 }
 
 .second-block {
 	display: flex;
 	justify-content: space-between;
+	text-align: center;
 }
 
 .white {
@@ -124,20 +132,17 @@
 .block-heading-big {
 	font-size: 35px;
 	color: #a2ca28;
-	text-align: center;
 	margin: 0px 0px 20px 0px
 }
 
 .drop-logo {
 	width: 15px;
-	padding-left: 100px;
-    padding-right: 100px;
+
 }
 
 .block-text {
 	color: #656e74;
 	font-size: 14px;
-	text-align: center;
 	padding: 0px 20px 0px 20px;
 }
 
